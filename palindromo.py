@@ -3,6 +3,7 @@ def palindromo(palabra):
     palabra = palabra.lower()
     return palabra == palabra[::-1]
 
+
 # Función inicial
 def run():
     palabra = input("Escribe una palabra: ")
