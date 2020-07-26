@@ -7,6 +7,9 @@ def run():
     print(lista)
     print(lista[::-1])
     print(lista[1:3])
+    lista_final = lista + ["nueva lista", 5, 7, 29]
+    print(lista_final)
+    print(lista*5)
 
 
 if __name__ == "__main__":
